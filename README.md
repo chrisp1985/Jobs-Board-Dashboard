@@ -1,3 +1,31 @@
+# Job Board Tracker
+## Background
+This project builds on my knowledge of Spring Boot to create a CRUD application with access to a postgres database for managing job applications. The Spring Boot side is not really anything new, but the project introduces:
+
+- NextJS
+- Tailwind
+- Authentication with JWT
+- Turbopack
+- Typescript
+
+## NextJS Notes
+### Why NextJS?
+NextJS can help with server side rendering. My previous project used vite, and all rendering was done on the client at startup. In a small app this isn't a problem, but for production apps there is likely a need to get the UI elements rendered before displaying in the browser to mitigate the risk of poor responsiveness in the UI.
+
+### 'use client'
+All files are treated as server components by default. If you want a component to run in the browser and use hooks, you must explicitly mark it as a client component. The hooks
+in use in page.tsx and JobForm.tsx are 'useState'.
+
+## Tailwind Notes
+
+
+
+
+
+---
+
+# NextJS
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
