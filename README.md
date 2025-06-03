@@ -20,6 +20,10 @@ in use in page.tsx and JobForm.tsx are 'useState'.
 
 
 
+## Execution
+Run the Spring Boot service first, as well as the DB and Keycloak/KeycloakDB docker-compose files. Once this is running, run the nextJS service using npm run dev. Then navigate to http://localhost:3000.
+
+Keycloak admin can be run via http://localhost:8081. To set up Keycloak, use the settings in the readme for Spring Boot.
 
 
 ---
